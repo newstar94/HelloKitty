@@ -1,0 +1,46 @@
+.main {
+    margin: 80px 0;
+}
+
+.tag{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.main-title {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.new-item {
+    display: flex;
+    margin-top: 16px;
+}
+
+.new-item .img img {
+    width: 250px;
+    border: 2px solid #ccc;
+}
+
+.new-content {
+    margin-left: 10px;
+}
+
+.new-content .new-title a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.new-date span {
+    font-weight: 700;
+    color: #868282;
+}
+
+.new-des {
+    font-size: 13px;
+}

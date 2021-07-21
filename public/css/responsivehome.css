@@ -1,0 +1,18 @@
+@media (max-width: 991px) {
+    .nav__hotline, .nav__list {
+        display: none;
+    }
+
+    .nav__menu {
+        justify-content: space-between;
+    }
+
+    .box__img-header {
+        height: 500px;
+    }
+
+    .menu-icon {
+        display: block;
+        position: relative;
+    }
+}

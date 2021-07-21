@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/stylehome.css" type="text/css">
+    <link rel="stylesheet" href="css/responsivehome.css" type="text/css">
+    <title>Trang chủ</title>
+</head>
+<body>
+<header class="header" >
+    <%- include("header")%>
+    <div class="box__img-header">
+        <img src="images/img-main.jpg" alt="" class="header__img">
+    </div>
+</header>
+
+<section class="main">
+    <div class="container">
+        <h2><a href="#" class="main-title">Vietnamese cuisine</a></h2>
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="food">
+                        <div class="img-food">
+                            <img src="images/pho.jpg" alt="" class="food-hot__img">
+                            <p class="food-name">Beef noodle soup</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="food">
+                        <div class="img-food">
+                            <img src="images/bun-cha-ca.jpg" alt="" class="food-hot__img">
+                            <p class="food-name">Fish ball noodles</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="food">
+                        <div class="img-food">
+                            <img src="images/hu-tieu.jpg" alt="" class="food-hot__img">
+                            <p class="food-name">Noodle</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="food">
+                        <div class="img-food">
+                            <img src="images/com-tam.jpg" alt="" class="food-hot__img">
+                            <p class="food-name">Broken rice</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="food">
+                        <div class="img-food">
+                            <img src="images/banh-cuon.jpg" alt="" class="food-hot__img">
+                            <p class="food-name">Rolls</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="food">
+                        <div class="img-food">
+                            <img src="images/banh-xeo.jpg" alt="" class="food-hot__img">
+                            <p class="food-name">Pancakes</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer-bs">
+    <%- include("footer") %>
+</footer>
+<script src="js/header_footer.js" type="text/javascript"></script>
+</body>
+</html>

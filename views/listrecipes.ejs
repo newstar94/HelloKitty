@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/stylehome.css" type="text/css">
+    <link rel="stylesheet" href="css/responsivehome.css" type="text/css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <title>Cooking recipe</title>
+</head>
+<body>
+<header class="header" >
+    <%- include("header")%>
+</header>
+<section class="main">
+    <div class="container">
+        <div class="header-recipes">
+            <img class="img-recipes" src="images/food.jpg" style="width:100%;">
+            <div class="content">
+                <h1>Choose from thousands of recipes</h1>
+                <p>Appropriately integrate technically sound value with scalable infomediaries negotiate sustainable strategic theme areas</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="tag">RECIPES</div>
+                <div class="row">
+                    <div class="col-md-9">
+                        <ul class="navrecipes">
+                            <li>
+                                <a href="listrecipe.html">Ăn Sáng</a>
+                                <ul id="sub1" class="sub" style="display: none">
+                                    <li>
+                                        <a href="listrecipe.html">Các loại bánh</a>
+                                    </li>
+                                    <li>
+                                        <a href="listrecipe.html">Cơm rang</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <div id="button1" class="click" onclick="showhide1()">+</div>
+                    </div>
+
+                    <div class="col-md-9">
+                        <ul class="navrecipes">
+                            <li>
+                                <a href="listrecipe.html">Đồ uống</a>
+                                <ul id="sub2" class="sub" style="display: none">
+                                    <li>
+                                        <a href="listrecipe.html">Cà phê</a>
+                                    </li>
+                                    <li>
+                                        <a href="listrecipe.html">Trà</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <div id="button2" class="click" onclick="showhide2()">+</div>
+                    </div>
+
+                    <div class="col-md-9">
+                        <ul class="navrecipes">
+                            <li>
+                                <a href="listrecipe.html">Fastfood</a>
+                                <ul id="sub3" class="sub" style="display: none">
+                                    <li>
+                                        <a href="listrecipe.html">Burger</a>
+                                    </li>
+                                    <li>
+                                        <a href="listrecipe.html">Khoai tây chiên</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <div id="button3" class="click" onclick="showhide3()">+</div>
+                    </div>
+
+                    <div class="col-md-9">
+                        <ul class="navrecipes">
+                            <li>
+                                <a href="listrecipe.html">Bánh ngọt</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-9">
+                        <ul class="navrecipes">
+                            <li>
+                                <a href="listrecipe.html">Mỳ, phở</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-9">
+                        <ul class="navrecipes">
+                            <li>
+                                <a href="listrecipe.html">Lẩu</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-9">
+                        <ul class="navrecipes">
+                            <li>
+                                <a href="listrecipe.html">Món chính</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-9">
+                        <ul class="navrecipes">
+                            <li>
+                                <a href="listrecipe.html">Súp</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="covid" id="covid">
+                    <div class="col-md-3">
+                        <div class="recipes">
+                            <a href="/do-uong/tralipton">
+                                <img class="cover" src="images/recipe1.jpg">
+                                <h3>Cá nục kho cà</h3>
+                                <p>Cá Nục Kho Cà Chua là món ăn ngon quen thuộc trong các bữa cơm gia đình Việt. Cá nục kho bùi, quyện sốt cà chua cùng nước dừa và gia vị nêm nếm đậm đà chắc chắn khiến bạn phải xiêu lòng.</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="recipes">
+                            <a href="/do-uong/tralipton">
+                                <img class="cover" src="images/recipe2.jpg">
+                                <h3>Bún mọc sườn heo</h3>
+                                <p>Bún mọc sườn heo là món ăn ngon giúp đổi vị cho bữa cơm gia đình bạn. Với sườn mềm ngọt thịt,
+                                    mọc dai dai hòa trong nước lèo thanh nhẹ trong vắt sẽ giúp món ăn không bao giờ bị ngán.
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="recipes">
+                            <a href="/do-uong/tralipton">
+                                <img class="cover" src="images/recipe3.jpg">
+                                <h3>Bò hầm bí đỏ hạt sen</h3>
+                                <p>Bò hầm bí đỏ hạt sen không chỉ là món ăn ngon dành cho bé yêu nhà bạn mà còn vô cùng bổ dưỡng.
+                                    Món ăn với thịt bò được hầm mềm cùng bí đỏ và hạt sen bùi thơm. </p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="recipes">
+                            <a href="/do-uong/tralipton">
+                                <img class="cover" src="images/recipe4.jpeg">
+                                <h3>Trà lipton cam thảo</h3>
+                                <p>Trà Lipton cam thảo là một trong những biến tấu đặc biệt từ trà Lipton truyền thống,
+                                    được kết hợp giữa các nguyên liệu tự nhiên có hương thơm thanh mát và nhẹ nhàng.
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="button">
+                    <button type="button" onclick="loadmore()" class="btn-success">Xem thêm...</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="footer-bs">
+    <%- include("footer") %>
+</footer>
+<script src="js/jquery-3.6.0.js" type="text/javascript"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+<script src="js/main.js" type="text/javascript"></script>
+</body>
+</html>
