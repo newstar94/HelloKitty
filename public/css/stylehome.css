@@ -92,8 +92,6 @@ body {
     width: 320px;
     max-width: 100%;
     background-color: #838385;
-    opacity: 0;
-    transition: transform linear 0.2s, opacity linear 0.2s;
 }
 
 .nav-input:checked ~ .nav__overlay {
@@ -101,7 +99,7 @@ body {
 }
 
 .nav-input:checked ~ .nav-mobile {
-    opacity: 1;
+    display: block;
 }
 
 @keyframes fadeIn {
