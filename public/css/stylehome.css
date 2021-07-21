@@ -93,7 +93,6 @@ body {
     max-width: 100%;
     background-color: #838385;
     opacity: 0;
-    transform: translateX(100%);
     transition: transform linear 0.2s, opacity linear 0.2s;
 }
 
@@ -102,7 +101,6 @@ body {
 }
 
 .nav-input:checked ~ .nav-mobile {
-    transform: translateX(0);
     opacity: 1;
 }
 
