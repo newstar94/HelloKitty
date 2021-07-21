@@ -92,6 +92,7 @@ body {
     width: 320px;
     max-width: 100%;
     background-color: #838385;
+    display: none;
 }
 
 .nav-input:checked ~ .nav__overlay {
