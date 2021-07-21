@@ -1,0 +1,30 @@
+.main {
+    margin: 80px 0;
+}
+
+.main-title{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+.title-img {
+    display: block;
+    width: 60vw;
+}
+
+.title-main {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.title-content-main {
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+}
+
+.title-content-time {
+    font-weight: 700;
+    color: #868282;
+}
+
