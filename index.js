@@ -15,12 +15,12 @@ app.get("/do-uong", function (reg, res){
 app.get("/news", function (reg, res){
     res.render("news");
 });
+app.get("/news/news-1", function (reg, res){
+    res.render("news-1");
+});
 app.get("/cookingrecipes", function (reg, res){
     res.render("cookingrecipes");
 });
 app.get("/do-uong/tralipton", function (reg, res){
     res.render("tralipton");
-});
-app.get("/news/news-1", function (reg, res){
-    res.render("news-1");
 });
