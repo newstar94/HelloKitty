@@ -15,4 +15,16 @@
         display: block;
         position: relative;
     }
+
+    .box-hidden {
+        display: none;
+    }
+
+    .col-md-12.main-section {
+        padding: 15px;
+    }
+
+    .single-contact-address-box.main-branch {
+        width: 80%;
+    }
 }

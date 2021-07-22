@@ -24,3 +24,6 @@ app.get("/cookingrecipes", function (reg, res){
 app.get("/do-uong/tralipton", function (reg, res){
     res.render("tralipton");
 });
+app.get("/contact", function (reg, res){
+    res.render("contact");
+});
