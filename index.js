@@ -15,8 +15,8 @@ app.get("/do-uong", function (reg, res){
 app.get("/news", function (reg, res){
     res.render("news");
 });
-app.get("/news/news-1", function (reg, res){
-    res.render("news-1");
+app.get("/news/news1", function (reg, res){
+    res.render("news1");
 });
 app.get("/cookingrecipes", function (reg, res){
     res.render("cookingrecipes");
