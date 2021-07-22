@@ -1,44 +1,13 @@
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {}
-a,
-a:hover,
-a:focus,
-a:active {
-    text-decoration: none;
-    outline: none;
-}
-
-a,
-a:active,
-a:focus {
-    color: #333;
-    text-decoration: none;
-    transition-timing-function: ease-in-out;
-    -ms-transition-timing-function: ease-in-out;
-    -moz-transition-timing-function: ease-in-out;
-    -webkit-transition-timing-function: ease-in-out;
-    -o-transition-timing-function: ease-in-out;
-    transition-duration: .2s;
-    -ms-transition-duration: .2s;
-    -moz-transition-duration: .2s;
-    -webkit-transition-duration: .2s;
-    -o-transition-duration: .2s;
-}
-
 ul {
     margin: 0;
     padding: 0;
     list-style: none;
 }
+
 img {
     max-width: 100%;
     height: auto;
 }
-
 
 .sec-title-style1 {
     position: relative;
@@ -46,6 +15,7 @@ img {
     margin-top: -9px;
     padding-bottom: 50px;
 }
+
 .sec-title-style1.max-width{
     position: relative;
     display: block;
@@ -53,9 +23,11 @@ img {
     margin: -9px auto 0;
     padding-bottom: 52px;
 }
+
 .sec-title-style1.pabottom50 {
     padding-bottom: 42px;
 }
+
 .sec-title-style1 .title {
     position: relative;
     display: block;
@@ -65,9 +37,11 @@ img {
     font-weight: 700;
     text-transform: uppercase;
 }
+
 .sec-title-style1 .title.clr-white{
     color: #ffffff;
 }
+
 .sec-title-style1 .decor {
     position: relative;
     display: block;
@@ -75,6 +49,7 @@ img {
     height: 5px;
     margin: 19px 0 0;
 }
+
 .sec-title-style1 .decor:before{
     position: absolute;
     top: 0;
@@ -86,6 +61,7 @@ img {
     border-radius: 50%;
     content: "";
 }
+
 .sec-title-style1 .decor:after{
     position: absolute;
     top: 0;
@@ -97,6 +73,7 @@ img {
     border-radius: 50%;
     content: "";
 }
+
 .sec-title-style1 .decor span {
     position: absolute;
     top: 0;
@@ -108,12 +85,12 @@ img {
     margin: 2px 0;
 }
 
-
 .sec-title-style1 .text{
     position: relative;
     display: block;
     margin: 7px 0 0;
 }
+
 .sec-title-style1 .text p{
     position: relative;
     display: inline-block;
@@ -125,9 +102,11 @@ img {
     text-transform: uppercase;
     margin: 0;
 }
+
 .sec-title-style1 .text.clr-yellow p{
     color: #FFA500;
 }
+
 .sec-title-style1 .text .decor-left{
     position: relative;
     top: -2px;
@@ -136,6 +115,7 @@ img {
     height: 5px;
     background: transparent;
 }
+
 .sec-title-style1 .text .decor-left span {
     position: absolute;
     top: 0;
@@ -147,6 +127,7 @@ img {
     content: "";
     margin: 2px 0;
 }
+
 .sec-title-style1 .text .decor-left:before{
     position: absolute;
     top: 0;
@@ -158,6 +139,7 @@ img {
     border-radius: 50%;
     content: "";
 }
+
 .sec-title-style1 .text .decor-left:after{
     position: absolute;
     top: 0;
@@ -178,6 +160,7 @@ img {
     height: 5px;
     background: transparent;
 }
+
 .sec-title-style1 .text .decor-right span {
     position: absolute;
     top: 0;
@@ -189,6 +172,7 @@ img {
     content: "";
     margin: 2px 0;
 }
+
 .sec-title-style1 .text .decor-right:before{
     position: absolute;
     top: 0;
@@ -200,6 +184,7 @@ img {
     border-radius: 50%;
     content: "";
 }
+
 .sec-title-style1 .text .decor-right:after{
     position: absolute;
     top: 0;
@@ -217,6 +202,7 @@ img {
     display: block;
     padding-top: 16px;
 }
+
 .sec-title-style1 .bottom-text p{
     color: #848484;
     font-size: 16px;
@@ -224,18 +210,22 @@ img {
     font-weight: 400;
     margin: 0;
 }
+
 .sec-title-style1 .bottom-text.clr-gray p{
     color: #cdcdcd;
 }
+
 .contact-address-area{
     position: relative;
     display: block;
     background: #ffffff;
     padding: 100px 0 120px;
 }
+
 .contact-address-area .sec-title-style1.max-width {
     padding-bottom: 72px;
 }
+
 .contact-address-box{
     display: flex;
     justify-content: space-between;
@@ -243,30 +233,36 @@ img {
     flex-wrap: wrap;
     align-items: center;
 }
+
 .single-contact-address-box {
     position: relative;
     display: block;
     background: #131313;
     padding: 85px 30px 77px;
 }
+
 .single-contact-address-box .icon-holder{
     position: relative;
     display: block;
     padding-bottom: 24px;
 }
+
 .single-contact-address-box .icon-holder span:before{
     font-size: 75px;
 }
+
 .single-contact-address-box h3{
     color: #ffffff;
-    margin: 0px 0 9px;
+    margin: 0 0 9px;
 }
+
 .single-contact-address-box h2{
     color: #FFA500;
     font-size: 24px;
     font-weight: 600;
     margin: 0 0 19px;
 }
+
 .single-contact-address-box a{
     color: #ffffff;
 }
@@ -277,6 +273,7 @@ img {
     margin-top: -20px;
     margin-bottom: -20px;
 }
+
 .single-contact-address-box.main-branch h3{
     color: #131313;
     font-size: 18px;
@@ -285,16 +282,18 @@ img {
     text-transform: uppercase;
     text-align: center;
 }
+
 .single-contact-address-box.main-branch .inner{
     position: relative;
     display: block;
-
 }
+
 .single-contact-address-box.main-branch .inner ul{
     position: relative;
     display: block;
     overflow: hidden;
 }
+
 .single-contact-address-box.main-branch .inner ul li{
     position: relative;
     display: block;
@@ -303,17 +302,20 @@ img {
     padding-bottom: 23px;
     margin-bottom: 24px;
 }
+
 .single-contact-address-box.main-branch .inner ul li:last-child{
     border: none;
     margin-bottom: 0;
     padding-bottom: 0;
 }
+
 .single-contact-address-box.main-branch .inner ul li .title{
     position: absolute;
     top: 2px;
     left: 0;
     display: inline-block;
 }
+
 .single-contact-address-box.main-branch .inner ul li .title h4{
     color: #131313;
     font-size: 18px;
@@ -327,6 +329,7 @@ img {
     position: relative;
     display: block;
 }
+
 .single-contact-address-box.main-branch .inner ul li .text p{
     color: #131313;
     font-size: 16px;
@@ -340,27 +343,31 @@ img {
     display: block;
     background: #ffffff;
 }
+
 .contact-form {
     position: relative;
     display: block;
     background: #ffffff;
     padding: 100px 60px 80px;
-    -webkit-box-shadow: 0px 3px 8px 2px #ededed;
-    box-shadow: 0px 3px 8px 2px #ededed;
+    -webkit-box-shadow: 0 3px 8px 2px #ededed;
+    box-shadow: 0 3px 8px 2px #ededed;
     z-index: 3;
 }
+
 .contact-form .sec-title-style1{
     position: relative;
     display: block;
     padding-bottom: 51px;
     width: 50%;
 }
+
 .contact-form .text-box{
     position: relative;
     display: block;
     margin-top: 19px;
     width: 50%;
 }
+
 .contact-form .text p{
     color: #848484;
     line-height: 26px;
@@ -372,10 +379,12 @@ img {
     display: block;
     background: #ffffff;
 }
+
 .contact-form form{
     position: relative;
     display: block;
 }
+
 .contact-form form .input-box{
     position: relative;
     display: block;
@@ -393,53 +402,63 @@ img {
     font-size: 16px;
     padding-left: 19px;
     padding-right: 15px;
-    border-radius: 0px;
+    border-radius: 0;
     margin-bottom: 20px;
     transition: all 500ms ease;
 }
+
 .contact-form form textarea {
     height: 130px;
-    padding-left: 19px;
-    padding-right: 15px;
-    padding-top: 14px;
-    padding-bottom: 15px;
+    padding: 14px 15px 15px 19px;
 }
+
 .contact-form form input[type="text"]:focus{
     color: #222222;
     border-color: #d4d4d4;
 }
+
 .contact-form form input[type="email"]:focus{
     color: #222222;
     border-color: #d4d4d4;
 }
+
 .contact-form form textarea:focus{
     color: #222222;
     border-color: #d4d4d4;
 }
+
 .contact-form form input[type="text"]::-webkit-input-placeholder {
     color: #848484;
 }
+
 .contact-form form input[type="text"]:-moz-placeholder {
     color: #848484;
 }
+
 .contact-form form input[type="text"]::-moz-placeholder {
     color: #848484;
 }
+
 .contact-form form input[type="text"]:-ms-input-placeholder {
     color: #848484;
 }
+
 .contact-form form input[type="email"]::-webkit-input-placeholder {
     color: #848484;
 }
+
 .contact-form form input[type="email"]:-moz-placeholder {
     color: #848484;
 }
+
 .contact-form form input[type="email"]::-moz-placeholder {
     color: #848484;
 }
+
 .contact-form form input[type="email"]:-ms-input-placeholder {
     color: #848484;
 }
+
 .contact-form form button {
     position: relative;
     display: block;
