@@ -16,7 +16,7 @@ app.get("/news", function (reg, res){
     res.render("news");
 });
 app.get("/news/news1", function (reg, res){
-    res.render("news1");
+    res.render("newscontent");
 });
 app.get("/cookingrecipes", function (reg, res){
     res.render("cookingrecipes");
